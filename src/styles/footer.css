@@ -1,0 +1,28 @@
+footer {
+  padding: 40px 0;
+  border-top: 1px solid var(--line-soft);
+  position: relative;
+  z-index: 2;
+}
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+.footer-inner p {
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+}
+.footer-social {
+  display: flex;
+  gap: 16px;
+}
+.footer-social a {
+  color: var(--ink-faint);
+  transition: color 0.2s ease;
+}
+.footer-social a:hover {
+  color: var(--amber-2);
+}
